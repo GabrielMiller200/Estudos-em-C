@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1635340218 source:c:\users\55219\documents\codigosc\porcentagemdevogais\main.c
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+	<math.h>
+	<stdio.h>
+	<locale.h>
+
+1635340218 source:c:\users\gabri\documents\codigosc\porcentagemdevogais\main.c
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+	<math.h>
+	<stdio.h>
+	<locale.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1644375723 source:c:\users\gabri\documents\codigosc\somavetor\soma_vetor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

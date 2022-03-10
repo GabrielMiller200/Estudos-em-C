@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1635269309 source:c:\users\55219\documents\codigosc\imprimirnomepelonumerodecaracteres\main.c
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+	<math.h>
+	<stdio.h>
+	<locale.h>
+

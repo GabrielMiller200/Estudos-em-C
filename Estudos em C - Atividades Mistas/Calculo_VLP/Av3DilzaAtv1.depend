@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1639427955 source:c:\users\gabri\documents\codigosc\trabalhodilzaav3\av3dilzaatv1\main.c
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+	<math.h>
+	<stdio.h>
+	<locale.h>
+

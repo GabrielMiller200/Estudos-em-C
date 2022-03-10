@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1646913180 source:c:\users\gabri\documents\estudos em c\atv1.programeseufuturo\main.c
+	<stdio.h>
+	<stdlib.h>
+

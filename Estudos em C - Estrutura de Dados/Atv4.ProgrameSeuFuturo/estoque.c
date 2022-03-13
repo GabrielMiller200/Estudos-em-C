@@ -29,6 +29,13 @@ void mostra_detalhe (float tt, float sal, float porc, float pag)
     printf(" Salario + comissao : %.2f\n\n", sal+pag);
 
     printf(" ----------------------------------------------\n");
-    printf("\n Detalhes tecnicos\n\n");
+}
 
+void mostra_cabecalho ()
+{
+    printf(" \n\t --- LOJA DE ARTESANATO ---\n\n");
+
+    printf(" ----------------------------------------------\n\n");
+    printf(" Digite a Quantidade de Produtos diferentes\n");
+    printf("\n Produtos unicos: ");
 }

@@ -12,4 +12,6 @@ void mostra_estoque (Estoque*es, float *tt, int *tam);
 
 void mostra_detalhe (float tt, float sal, float porc, float pag);
 
+void mostra_cabecalho ();
+
 #endif // ESTOQUE_H_INCLUDED

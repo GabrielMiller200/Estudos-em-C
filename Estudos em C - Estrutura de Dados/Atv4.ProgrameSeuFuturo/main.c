@@ -23,11 +23,8 @@ int main()
     float salario = 1100.00,porcent = 0.05;
     int quant = 0, aux;
 
-    printf(" \n\t --- LOJA DE ARTESANATO ---\n\n");
+    mostra_cabecalho ();
 
-    printf(" ----------------------------------------------\n\n");
-    printf(" Digite a Quantidade de Produtos diferentes\n");
-    printf("\n Produtos unicos: ");
     scanf("%d", &tam);
     fflush(stdin);
 
@@ -53,31 +50,30 @@ int main()
         fflush(stdin);
     }
 
-    mostra_estoque(estoque, &total, &tam);
+    mostra_estoque (estoque, &total, &tam);
 
     pagamento = total*porcent;
 
-    mostra_detalhe(total, salario, porcent, pagamento);
+    mostra_detalhe (total, salario, porcent, pagamento);
+
+    printf("\n Produto(s) mais vendido(s): \n\n");
 
     for(int i=0; i < tam; i++)
     {
-
-        if ( quant < estoque[i].quantidade)
+        if ( quant <= estoque[i].quantidade)
         {
             quant = estoque[i].quantidade;
             aux = i;
+            printf(" - %s", estoque[aux].produto );
+            printf(" Quantidade: %d\n", quant);
+            printf(" Valor unitario: %.2f\n",estoque[aux].valor);
+
+            printf(" Posicao na Lista: %d\n", aux+1);
+
+            printf(" Posicao no vetor: %d\n\n", aux);
         }
     }
 
-    printf(" Produto mais vendido: %s\n", estoque[aux].produto);
-    printf(" Quantidade: %d\n", quant);
-    printf(" Valor unitario: %.2f\n",estoque[aux].valor);
-
-    printf(" Posicao na Lista: %d\n\n", aux+1);
-
-    printf(" Posicao no vetor: %d\n\n", aux);
-
-    printf(" ----------------------------------------------\n");
     system("pause");
 
     return 0;

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1647488297 source:c:\users\gabri\documents\estudos em c - estrutura de dados\atv5.programeseufuturo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1647442398 c:\users\gabri\documents\estudos em c - estrutura de dados\atv5.programeseufuturo\mes.h
+
+1647442017 source:c:\users\gabri\documents\estudos em c - estrutura de dados\atv5.programeseufuturo\mes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mes.h"
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1648050507 source:c:\users\gabri\documents\estudos em c - estrutura de dados\atv6.programeseufuturo\atv6.programeseufuturo\vetor.c
+	"vetor.h"
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1648049422 c:\users\gabri\documents\estudos em c - estrutura de dados\atv6.programeseufuturo\atv6.programeseufuturo\vetor.h
+
+1648050226 source:c:\users\gabri\documents\estudos em c - estrutura de dados\atv6.programeseufuturo\atv6.programeseufuturo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vetor.h"
+

@@ -29,7 +29,7 @@ void mostra_menu()
     printf("\n - Escolha uma das opções abaixo: \n\n");
     printf(" 1 - Mostrar vetor\n");
     printf(" 2 - Inverter vetor\n");
-    printf(" 0 - Mostrar vetor\n\n");
+    printf(" 0 - Finalizar programa\n\n");
     printf(" Opção: ");
 }
 
